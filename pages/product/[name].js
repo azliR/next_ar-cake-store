@@ -37,11 +37,11 @@ const ItemView = (props) => {
     <>
       <CartLink />
       <Head>
-        <title>Jamstack ECommerce - {name}</title>
+        <title>GoBakery ECommerce - {name}</title>
         <meta name="description" content={description} />
         <meta
           property="og:title"
-          content={`Jamstack ECommerce - ${name}`}
+          content={`GoBakery ECommerce - ${name}`}
           key="title"
         />
       </Head>

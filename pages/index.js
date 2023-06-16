@@ -25,7 +25,7 @@ const Home = ({ inventoryData = [], categories: categoryData = [] }) => {
             name="description"
             content="Go Bakery ECommerce adalah platform belanja online yang menghadirkan kelezatan dan keragaman dari berbagai produk roti dan kue dari seluruh penjuru dunia."
           />
-          <meta property="og:title" content="Jamstack ECommerce" key="title" />
+          <meta property="og:title" content="GoBakery ECommerce" key="title" />
         </Head>
       </div>
       <div

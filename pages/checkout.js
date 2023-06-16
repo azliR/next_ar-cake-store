@@ -129,13 +129,12 @@ const Checkout = ({ context }) => {
   return (
     <div className="flex flex-col items-center pb-10">
       <Head>
-        <title>Jamstack ECommerce - Checkout</title>
-        <meta name="description" content={`Check out`} />
+        <title>Go Bakery ECommerce - Checkout</title>
         <meta
-          property="og:title"
-          content="Jamstack ECommerce - Checkpit"
-          key="title"
+          name="description"
+          content="Go Bakery ECommerce adalah platform belanja online yang menghadirkan kelezatan dan keragaman dari berbagai produk roti dan kue dari seluruh penjuru dunia."
         />
+        <meta property="og:title" content="GoBakery ECommerce" key="title" />
       </Head>
       <div
         className="
@@ -185,14 +184,15 @@ const Checkout = ({ context }) => {
                 <div className="mt-4 border-t pt-10">
                   <form onSubmit={handleSubmit}>
                     {errorMessage ? <span>{errorMessage}</span> : ""}
-
-                    <button
-                      type="submit"
-                      className="hidden md:block bg-primary hover:bg-black text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline"
-                      type="button"
-                    >
-                      Confirm order
-                    </button>
+                    <a href="https://wa.me/6282318062099">
+                      <button
+                        type="submit"
+                        className="hidden md:block bg-primary hover:bg-black text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline"
+                        type="button"
+                      >
+                        Lanjutkan Pemesanan Via WHATSAPP
+                      </button>
+                    </a>
                   </form>
                 </div>
               </div>
@@ -219,7 +219,7 @@ const Checkout = ({ context }) => {
                     className="md:hidden bg-primary hover:bg-black text-white font-bold py-2 px-4 mt-4 rounded focus:outline-none focus:shadow-outline"
                     type="button"
                   >
-                    Confirm order
+                    Lanjutkan Pemesanan Via WHATSAPP
                   </button>
                 </a>
               </div>
