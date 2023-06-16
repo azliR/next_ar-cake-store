@@ -1,3 +1,3 @@
-const DENOMINATION = '$'
+const DENOMINATION = "Rp."
 
 export default DENOMINATION
