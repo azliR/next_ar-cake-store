@@ -82,7 +82,7 @@ export default function Layout({ children, categories }) {
         border-t border-gray-300"
         >
           <span className="block text-gray-700 text-xs">
-            Copyright © 2021 JAMstack Ecommerce. All rights reserved.
+            Copyright © 2023 GoBakery. All rights reserved.
           </span>
           <div
             className="
